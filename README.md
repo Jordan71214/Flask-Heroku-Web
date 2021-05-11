@@ -5,13 +5,13 @@
    |
    |__ <static>
    |      |__ <css>
-   |      |     |__ main.css   (使用範例檔案)
-   |      |     |__ menu.css   (使用範例檔案)
-   |      |     |__ color.css  (使用範例檔案)
+   |      |     |__ main.css
+   |      |     |__ menu.css
+   |      |     |__ color.css
    |      |
    |      |__ <imgs>
-   |            |__ header.jpg  (使用範例檔案)
-   |            |__ icon.jpg    (使用範例檔案)
+   |            |__ header.jpg 
+   |            |__ icon.jpg
    |
    |__ <templates>
    |      |__ index.html    (主畫面)
