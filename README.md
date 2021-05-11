@@ -36,6 +36,10 @@
    |      
    |__ <core>
    |      |__ db.py    (資料庫)
+   |
+   |__ <models>
+   |      |__ customer.py    (客戶物件)  
+   |      |__ user.py        (使用者物件)  
    |      
    |__ <routes>
    |      |__ homeRoute.py        (主畫面路由)
