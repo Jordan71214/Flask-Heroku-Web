@@ -1,5 +1,7 @@
 ## 以Flask建立的Web, 沒有ORM, 只處理客戶資料表及登入登出
 
+
+### (1)檔案結構
 ```
  <web>
    |
@@ -51,4 +53,36 @@
    |      |__ userService.py      (登入/登出功能)  
    |
    |__ app.py  
+```
+
+
+### (2)上傳Heroku步驟
+
+``` js
+1. 申請Heroku及Github帳號
+2. 登入Heroku及Github
+
+3. 下載Heroku Cli
+   https://devcenter.heroku.com/articles/heroku-cli#download-and-install
+
+4. 下載Git
+   https://git-scm.com/downloads
+
+(進入命令題示字元)
+
+5. 進入App的資料夾, 例如:
+   d:\
+   cd 資料夾名稱
+
+6. heroku login
+7. git init
+8. heroku git:remote -a 在Heroku的App名稱
+
+9. 上傳程式
+   git add .
+   git commit -a -m "myApp"
+   git push heroku master
+
+10. 觀看Heroku終端機畫面
+    
 ```
