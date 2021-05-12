@@ -62,10 +62,10 @@
 1. 申請 Heroku 及 Github 帳號
 2. 登入 Heroku 及 Github
 
-3. 下載 Heroku Cli
+3. 下載及安裝 Heroku Cli
    https://devcenter.heroku.com/articles/heroku-cli#download-and-install
 
-4. 下載 Git
+4. 下載及安裝 Git
    https://git-scm.com/downloads
 
 (以下步驟在[命令題示字元]畫面中操作)
