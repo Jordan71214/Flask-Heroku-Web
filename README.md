@@ -76,13 +76,17 @@
 
 6. heroku login
 7. git init
-8. heroku git:remote -a 在Heroku的App名稱
 
-9. 上傳程式
+8. **如果有需要, 可建立一個新的 Heroku App
+   heroku create
+   
+9. heroku git:remote -a 已存在Heroku的App名稱
+
+10. 上傳程式到Heroku
    git add .
    git commit -a -m "myApp"
    git push heroku master
 
-10. 觀看Heroku終端機畫面(如有需要)
+11. **如果有需要, 可觀看Heroku終端機畫面
     heroku logs --tail
 ```
