@@ -56,7 +56,7 @@
 ```
 
 
-### (2)上傳Heroku步驟
+### (2)上傳Heroku
 
 ``` js
 1. 申請 Heroku 及 Github 帳號
