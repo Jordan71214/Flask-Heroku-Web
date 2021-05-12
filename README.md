@@ -68,7 +68,7 @@
 4. 下載Git
    https://git-scm.com/downloads
 
-(進入命令題示字元)
+(以下步驟在[命令題示字元]畫面中操作)
 
 5. 進入App的資料夾, 例如:
    d:\
@@ -83,6 +83,6 @@
    git commit -a -m "myApp"
    git push heroku master
 
-10. 觀看Heroku終端機畫面
-    
+10. 觀看Heroku終端機畫面(如有需要)
+    heroku logs --tail
 ```
