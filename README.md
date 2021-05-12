@@ -59,18 +59,18 @@
 ### (2)上傳Heroku步驟
 
 ``` js
-1. 申請Heroku及Github帳號
-2. 登入Heroku及Github
+1. 申請 Heroku 及 Github 帳號
+2. 登入 Heroku 及 Github
 
-3. 下載Heroku Cli
+3. 下載 Heroku Cli
    https://devcenter.heroku.com/articles/heroku-cli#download-and-install
 
-4. 下載Git
+4. 下載 Git
    https://git-scm.com/downloads
 
 (以下步驟在[命令題示字元]畫面中操作)
 
-5. 進入App的資料夾, 例如:
+5. 進入待上傳程式所在的資料夾, 假設程式在d槽中:
    d:\
    cd 資料夾名稱
 
