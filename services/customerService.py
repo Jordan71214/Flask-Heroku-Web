@@ -80,9 +80,12 @@ def customer_create(customer):
     conn = DB.getConn()
     cursor = conn.cursor()
 
+    
+
     # 執行SQL命令
     try:        
-        cursor.execute("INSERT INTO customer (cusno, cusname, contactor, title, address) VALUES (%s, %s, %s, %s, %s)", (customer.cusno, customer.cusname, customer.contactor, customer.title, customer.address))
+        cursor.execute("INSERT INTO customer (cusno, cusname, contactor, title, address) VALUES (%s, %s, %s, %s, %s)"
+        , (customer.cusno, customer.cusname, customer.contactor, customer.title, customer.address))
         rowCnt = cursor.rowcount 
     except:
         rowCnt = 0
@@ -107,7 +110,8 @@ def customer_update(customer):
 
     # 執行SQL命令
     try:        
-        cursor.execute("UPDATE customer SET cusname=%s, contactor=%s, title=%s, address=%s WHERE cusno=%s", (customer.cusname, customer.contactor, customer.title, customer.address, customer.cusno))
+        cursor.execute("UPDATE customer SET cusname=%s, contactor=%s, title=%s, address=%s WHERE cusno=%s"
+        , (customer.cusname, customer.contactor, customer.title, customer.address, customer.cusno))
         rowCnt = cursor.rowcount 
     except:
         rowCnt = 0

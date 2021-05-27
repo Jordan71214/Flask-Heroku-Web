@@ -20,11 +20,11 @@ def beforeRequest():
 #-----------------------
 # 設定服務路由
 #-----------------------
-from routes import homeRoute, customerRoute, userRoute
+from routes import homeRoute, customerRoute, userRoute, productRoute
 userRoute.init_app(app)
 homeRoute.init_app(app)
 customerRoute.init_app(app)
-  
+productRoute.init_app(app)
 #-----------------------
 # 啟動Flask
 #-----------------------
